@@ -1,4 +1,4 @@
-# Save this file as excutable sctip (chmod +x script_file_name) and run it as same user as: apt-mirror
+# Save this file as excutable script (chmod +x script_file_name) and run it as same user as: apt-mirror
 # Sync CentOS
 reposync -c /etc/yum/yum.conf -n -d --download-metadata --norepopath -r os --download_path=/data/yum-mirror/centos/7/os/x86_64
 reposync -c /etc/yum/yum.conf -n -d --download-metadata --norepopath -r updates --download_path=/data/yum-mirror/centos/7/updates/x86_64
