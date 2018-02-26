@@ -45,10 +45,18 @@ sudo chown -R apt-mirror:apt-mirror /data/
 
 # Run apt-mirror, 
 sudo su apt-mirror
+
+
 apt-mirror
 
+
+
 # then run the UpdateCentOSRepos script, again with same user apt-mirror
+
+
 sudo su apt-mirror
+
+
 ./UpdateCentOSRepos
 
 # In Clients Machines, Debian or Ubuntu, Change the sources.list to match the ip of the server hosting the files, For Repos with GPG key, you need to set [trusted=yes] in front of deb, to ignore GPG key check
