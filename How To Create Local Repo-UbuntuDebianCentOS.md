@@ -1,7 +1,10 @@
 # Steps I've Used to create my own local repo on Ubuntu, For: Ubuntu, Debian, CentOS
 
 References:
+First: 
 https://blog.programster.org/set-up-a-local-ubuntu-mirror-with-apt-mirror
+
+Second:
 https://estl.tech/host-your-own-yum-and-apt-repository-4ba8350eeda1
 *********************************************
                 Preperation For Host
