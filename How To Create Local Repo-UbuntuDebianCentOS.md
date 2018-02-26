@@ -29,7 +29,9 @@ sudo nano /etc/yum/repos.d/centos.repo
 
 # Create update script for CentOS in home folder, and make it execute able, you can use my example code at: https://github.com/bodaay/MyNotes/blob/master/Files/UpdateCentOSRepos
 
+# Configure Apache, Create/edit the file /etc/apache2/sites-enabled/000-default.conf, use my example at https://github.com/bodaay/MyNotes/blob/master/Files/000-default.conf
 
+sudo nano /etc/apache2/sites-enabled/000-default.conf
 
 
 # In Clients Machines, Debian or Ubuntu, Change the sources.list to match the ip of the server hosting the files, For Repos with GPG key, you need to set [trusted=yes] in front of deb, to ignore GPG key check
