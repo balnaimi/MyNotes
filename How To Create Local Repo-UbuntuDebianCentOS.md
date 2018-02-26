@@ -19,7 +19,7 @@ sudo mkdir /data/yum-mirror
 # Create manually folders required for centOS repos, I'm including Cassandra 3.11 as well for all plateforms
 sudo mkdir -p /data/yum-mirror/centos/7/os/x86_64/ /data/yum-mirror/centos/7/updates/x86_64/ /data/yum-mirror/centos/7/extras/x86_64/ /data/yum-mirror/apache/cassandra/redhat/311x/
 
-# Edit the file sources.list in /etc/apt/mirror.list, use my example at: https://github.com/bodaay/MyNotes/blob/master/Files/mirror.list
+# Edit the file in /etc/apt/mirror.list, use my example at: https://github.com/bodaay/MyNotes/blob/master/Files/mirror.list
 
 sudo nano /etc/apt/mirror.list
 
@@ -33,6 +33,9 @@ sudo nano /etc/yum/repos.d/centos.repo
 
 sudo nano /etc/apache2/sites-enabled/000-default.conf
 
+# Change the owner shit of main data folder and give it for apt-mirror user,
+
+sudo chown -R apt-mirror:apt-mirror /data/
 
 # In Clients Machines, Debian or Ubuntu, Change the sources.list to match the ip of the server hosting the files, For Repos with GPG key, you need to set [trusted=yes] in front of deb, to ignore GPG key check
 example: 
