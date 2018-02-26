@@ -33,7 +33,7 @@ sudo nano /etc/yum/repos.d/centos.repo
 
 sudo nano /etc/apache2/sites-enabled/000-default.conf
 
-# Change the owner shit of main data folder and give it for apt-mirror user,
+# Change the ownership of main data folder and give it for apt-mirror user,
 
 sudo chown -R apt-mirror:apt-mirror /data/
 
