@@ -1,1 +1,20 @@
-#Steps I've Used to create my own local repo
+#Steps I've Used to create my own local repo on Ubuntu
+
+For: Ubuntu, Debian, CentOS
+
+*********************************************
+                Preperation For Host
+*********************************************
+
+sudo apt install apache2 apt-mirror
+sudo apt install -y createrepo yum-utils
+
+# Choose a folder to host all data
+
+sudo mkdir /data
+
+# We will create two main folders, one for debian based tool apt-mirror, and the other for yum
+
+sudo mkdir /data/apt-mirror
+sudo mkdir /data/yum-mirror
+
