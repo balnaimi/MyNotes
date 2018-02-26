@@ -10,7 +10,7 @@ https://estl.tech/host-your-own-yum-and-apt-repository-4ba8350eeda1
                 Preperation For Host
 *********************************************
 
-sudo apt install apache2 apt-mirror
+sudo apt install -y apache2 apt-mirror
 
 
 sudo apt install -y createrepo yum-utils
