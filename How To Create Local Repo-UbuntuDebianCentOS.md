@@ -1,6 +1,4 @@
-#Steps I've Used to create my own local repo on Ubuntu
-
-For: Ubuntu, Debian, CentOS
+# Steps I've Used to create my own local repo on Ubuntu, For: Ubuntu, Debian, CentOS
 
 *********************************************
                 Preperation For Host
