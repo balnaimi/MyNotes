@@ -60,6 +60,8 @@ sudo su apt-mirror
 ./UpdateCentOSRepos
 
 # In Clients Machines, Debian or Ubuntu, Change the sources.list to match the ip of the server hosting the files, For Repos with GPG key, you need to set [trusted=yes] in front of deb, to ignore GPG key check
-example: 
+example:
+
+
 deb [trusted=yes]  http://192.168.100.56/apache/cassandra/debian 311x main
 
