@@ -35,6 +35,9 @@ sudo nano /etc/yum/repos.d/centos.repo
 
 # Create update script for CentOS in home folder, and make it execute able, you can use my example code at: https://github.com/bodaay/MyNotes/blob/master/Files/UpdateCentOSRepos
 
+cd ~
+nano UpdateCentOSRepos
+
 # Configure Apache, Create/edit the file /etc/apache2/sites-enabled/000-default.conf, use my example at https://github.com/bodaay/MyNotes/blob/master/Files/000-default.conf
 
 sudo nano /etc/apache2/sites-enabled/000-default.conf
