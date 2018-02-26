@@ -1,4 +1,4 @@
-# Steps I've Used to create my own local repo on Ubuntu, For: Ubuntu 16.04 32 & 64, Debian strech 32 & 64, CentOS 7 64 only
+# Steps I've Used to create my own local repo on Ubuntu, For: Ubuntu 16.04 32 & 64, Debian stretch 32 & 64, CentOS 7 64 only
 
 References:
 First: 
