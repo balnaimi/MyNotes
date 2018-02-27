@@ -1,0 +1,11 @@
+
+deb http://aptmirror/ubuntu/ xenial main restricted
+deb http://aptmirror/ubuntu/ xenial-updates main restricted
+deb http://aptmirror/ubuntu/ xenial universe
+deb http://aptmirror/ubuntu/ xenial-updates universe
+deb http://aptmirror/ubuntu/ xenial multiverse
+deb http://aptmirror/ubuntu/ xenial-updates multiverse
+deb http://aptmirror/ubuntu/ xenial-backports main restricted universe multiverse
+deb http://aptmirror/ubuntu/ xenial-security main restricted
+deb http://aptmirror/ubuntu/ xenial-security universe
+deb http://aptmirror/ubuntu/ xenial-security multiverse
