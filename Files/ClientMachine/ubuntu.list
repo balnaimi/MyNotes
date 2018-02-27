@@ -9,3 +9,9 @@ deb http://aptmirror/ubuntu/ xenial-backports main restricted universe multivers
 deb http://aptmirror/ubuntu/ xenial-security main restricted
 deb http://aptmirror/ubuntu/ xenial-security universe
 deb http://aptmirror/ubuntu/ xenial-security multiverse
+
+deb [trusted=yes] http://aptmirror/gitlab/gitlab-ee/ubuntu/
+
+deb [trusted=yes] http://aptmirror/apache/dist/cassandra/debian 311x main
+
+deb [trusted=yes] http://aptmirror/docker/linux/ubuntu xenial stable
