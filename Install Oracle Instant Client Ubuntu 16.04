@@ -1,0 +1,35 @@
+Ref: http://www.gilfillan.space/2016/04/24/install-oracle-instant-client-1604/
+
+# Download Oracle Shit:
+
+http://download.oracle.com/otn/linux/instantclient/122010/oracle-instantclient12.2-basic-12.2.0.1.0-1.x86_64.rpm
+
+
+http://download.oracle.com/otn/linux/instantclient/122010/oracle-instantclient12.2-sqlplus-12.2.0.1.0-1.x86_64.rpm
+
+
+http://download.oracle.com/otn/linux/instantclient/122010/oracle-instantclient12.2-devel-12.2.0.1.0-1.x86_64.rpm
+
+# Install alien
+sudo apt install alien
+
+# Install Oracle
+sudo alien -i oracle-instantclient12.2-basic-12.2.0.1.0-1.x86_64.rpm
+
+
+sudo alien -i oracle-instantclient12.2-sqlplus-12.2.0.1.0-1.x86_64.rpm
+
+
+sudo alien -i oracle-instantclient12.2-devel-12.2.0.1.0-1.x86_64.rpm
+
+# Create folder
+
+sudo mkdir -p /usr/lib/oracle/12.2/client64
+
+
+sudo mkdir -p /usr/lib/oracle/12.2/client64/lib
+
+
+sudo mkdir -p /usr/lib/oracle/12.2/client64/network/admin
+
+# Set the Oracle environment variables by editing your PATH and adding ORACLE_HOME, OCI_LIB and TNS_ADMIN to your /etc/environment file as follows
