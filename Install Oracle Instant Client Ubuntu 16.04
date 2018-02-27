@@ -22,14 +22,16 @@ sudo alien -i oracle-instantclient12.2-sqlplus-12.2.0.1.0-1.x86_64.rpm
 
 sudo alien -i oracle-instantclient12.2-devel-12.2.0.1.0-1.x86_64.rpm
 
-# Create folder
+# Install libaio1
 
-sudo mkdir -p /usr/lib/oracle/12.2/client64
+sudo apt-get install libaio1
 
+# Change Config and update
 
-sudo mkdir -p /usr/lib/oracle/12.2/client64/lib
+sudo nano /etc/ld.so.conf.d/oracle.conf
 
+sudo ldconfig
 
-sudo mkdir -p /usr/lib/oracle/12.2/client64/network/admin
+# Test
 
-# Set the Oracle environment variables by editing your PATH and adding ORACLE_HOME, OCI_LIB and TNS_ADMIN to your /etc/environment file as follows
+sqlplus64
