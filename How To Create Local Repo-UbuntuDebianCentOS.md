@@ -50,6 +50,11 @@ nano UpdateCentOSRepos
 
 sudo nano /etc/apache2/sites-enabled/000-default.conf
 
+# Configure apache and create symbolic links for apt and yum
+
+sudo ln -s /data/apt-mirror /var/www/apt
+sudo ln -s /data/yum-mirror /var/www/yum
+
 
 # In Clients Machines, Debian or Ubuntu, Change the sources.list to match the ip of the server hosting the files, For Repos with GPG key, you need to set [trusted=yes] in front of deb, to ignore GPG key check
 example:
