@@ -1,17 +1,17 @@
 
-deb http://aptmirror/apt/ubuntu/ xenial main restricted
-deb http://aptmirror/apt/ubuntu/ xenial-updates main restricted
-deb http://aptmirror/apt/ubuntu/ xenial universe
-deb http://aptmirror/apt/ubuntu/ xenial-updates universe
-deb http://aptmirror/apt/ubuntu/ xenial multiverse
-deb http://aptmirror/apt/ubuntu/ xenial-updates multiverse
-deb http://aptmirror/apt/ubuntu/ xenial-backports main restricted universe multiverse
-deb http://aptmirror/apt/ubuntu/ xenial-security main restricted
-deb http://aptmirror/apt/ubuntu/ xenial-security universe
-deb http://aptmirror/apt/ubuntu/ xenial-security multiverse
+deb http://aptmirror/apt/us.archive.ubunut.com/ubuntu/ xenial main restricted
+deb http://aptmirror/apt/us.archive.ubunut.com/ubuntu/ xenial-updates main restricted
+deb http://aptmirror/apt/us.archive.ubunut.com/ubuntu/ xenial universe
+deb http://aptmirror/apt/us.archive.ubunut.com/ubuntu/ xenial-updates universe
+deb http://aptmirror/apt/us.archive.ubunut.com/ubuntu/ xenial multiverse
+deb http://aptmirror/apt/us.archive.ubunut.com/ubuntu/ xenial-updates multiverse
+deb http://aptmirror/apt/us.archive.ubunut.com/ubuntu/ xenial-backports main restricted universe multiverse
+deb http://aptmirror/apt/us.archive.ubuntu.com/ubuntu/ xenial-security main restricted
+deb http://aptmirror/apt/us.archive.ubuntu.com/ubuntu/ xenial-security universe
+deb http://aptmirror/apt/us.archive.ubuntu.com/ubuntu/ xenial-security multiverse
 
-deb [trusted=yes] http://aptmirror/apt/gitlab/gitlab-ee/ubuntu/
+deb [trusted=yes] http://aptmirror/apt/packages.gitlab.com/gitlab/gitlab-ee/ubuntu/
 
-deb [trusted=yes] http://aptmirror/apt/apache/dist/cassandra/debian 311x main
+deb [trusted=yes] http://aptmirror/apt/www.apache.org/dist/cassandra/debian 311x main
 
-deb [trusted=yes] http://aptmirror/apt/docker/linux/ubuntu xenial stable
+deb [trusted=yes] http://aptmirror/apt/download.docker.com/linux/ubuntu xenial stable
