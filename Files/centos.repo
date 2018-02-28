@@ -20,8 +20,7 @@ gpgcheck=0
 
 [centosplus]
 name=CentOS-7 - Plus
-mirrorlist=http://mirrorlist.centos.org/7/centosplus/x86_64
-#baseurl=http://mirror.centos.org/centos/7/centosplus/x86_64/
+baseurl=http://mirror.centos.org/centos/7/centosplus/x86_64/
 gpgcheck=0
 enabled=0
 #gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7
