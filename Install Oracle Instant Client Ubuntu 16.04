@@ -26,7 +26,7 @@ sudo alien -i oracle-instantclient12.2-devel-12.2.0.1.0-1.x86_64.rpm
 
 sudo apt-get install libaio1
 
-# Change Config and update
+# Edit Config and paste this in the config file:    /usr/lib/oracle/12.2/client64/lib/
 
 sudo nano /etc/ld.so.conf.d/oracle.conf
 
