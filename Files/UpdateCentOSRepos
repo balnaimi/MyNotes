@@ -1,20 +1,25 @@
 # Save this file as excutable script (chmod +x script_file_name) and run it as same user as: apt-mirror
 # Sync CentOS
-mkdir -p /data/yum-mirror/mirror.centos.org/7/os/x86_64
-reposync -c /etc/yum/yum.conf -n -d --download-metadata --norepopath -r os --download_path=/data/yum-mirror/mirror.centos.org/7/os/x86_64
-mkdir -p /data/yum-mirror/mirror.centos.org/7/updates/x86_64
-reposync -c /etc/yum/yum.conf -n -d --download-metadata --norepopath -r updates --download_path=/data/yum-mirror/mirror.centos.org/7/updates/x86_64
-mkdir -p /data/yum-mirror/mirror.centos.org/7/extras/x86_64
-reposync -c /etc/yum/yum.conf -n -d --download-metadata --norepopath -r extras --download_path=/data/yum-mirror/mirror.centos.org/7/extras/x86_64
+
+mkdir -p /data/yum-mirror/mirror.centos.org/centos/7/os/x86_64
+reposync -c /etc/yum/yum.conf -n -d --download-metadata --norepopath -r os --download_path=/data/yum-mirror/mirror.centos.org/centos/7/os/x86_64
+
+mkdir -p /data/yum-mirror/mirror.centos.org/centos/7/updates/x86_64
+reposync -c /etc/yum/yum.conf -n -d --download-metadata --norepopath -r updates --download_path=/data/yum-mirror/mirror.centos.org/centos/7/updates/x86_64
+
+mkdir -p /data/yum-mirror/mirror.centos.org/centos/7/extras/x86_64
+reposync -c /etc/yum/yum.conf -n -d --download-metadata --norepopath -r extras --download_path=/data/yum-mirror/mirror.centos.org/centos/7/extras/x86_64
+
 mkdir -p /data/yum-mirror/dl.fedoraproject.org/pub/epel/7/x86_64
 reposync -c /etc/yum/yum.conf -n -d --download-metadata --norepopath -r epel --download_path=/data/yum-mirror/dl.fedoraproject.org/pub/epel/7/x86_64
+
 mkdir -p /data/yum-mirror/www.apache.org/dist/cassandra/redhat/311x/
 reposync -c /etc/yum/yum.conf -n -d --download-metadata --norepopath -r cassandra --download_path=/data/yum-mirror/www.apache.org/dist/cassandra/redhat/311x/
 
 
 # Build CentOS repo metadata
-createrepo --update --workers=4 /data/yum-mirror/mirror.centos.org/7/os/x86_64
-createrepo --update --workers=4 /data/yum-mirror/mirror.centos.org/7/updates/x86_64
-createrepo --update --workers=4 /data/yum-mirror/mirror.centos.org/7/extras/x86_64
+createrepo --update --workers=4 /data/yum-mirror/mirror.centos.org/centos/7/os/x86_64
+createrepo --update --workers=4 /data/yum-mirror/mirror.centos.org/centos/7/updates/x86_64
+createrepo --update --workers=4 /data/yum-mirror/mirror.centos.org/centos/7/extras/x86_64
 createrepo --update --workers=4 /data/yum-mirror/dl.fedoraproject.org/pub/epel/7/x86_64
 createrepo --update --workers=4 /data/yum-mirror/www.apache.org/dist/cassandra/redhat/311x/
