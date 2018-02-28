@@ -52,7 +52,7 @@ sudo nano /etc/apache2/sites-enabled/000-default.conf
 
 # Configure apache and create symbolic links for apt and yum
 
-sudo ln -s /data/apt-mirror /var/www/apt
+sudo ln -s /data/apt-mirror/mirror /var/www/apt
 sudo ln -s /data/yum-mirror /var/www/yum
 
 
