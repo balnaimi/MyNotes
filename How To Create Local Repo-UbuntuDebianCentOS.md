@@ -73,3 +73,10 @@ example:
 
 deb [trusted=yes]  http://192.168.100.56/apache/cassandra/debian 311x main
 
+# you can download examples for sources file for client machine from: 
+https://github.com/bodaay/MyNotes/tree/master/Files/ClientMachine
+
+# if you are going to use mounted cifs share, use the following example, nobrl solve some issues with locked files
+
+sudo mount.cifs -o username=aptmirror,password=aptmirror,nobrl,uid=$USER,gid=$USER,vers=3.0 //192.168.100.132/Repo /data
+
