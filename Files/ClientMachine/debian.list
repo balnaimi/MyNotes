@@ -2,6 +2,6 @@ deb http://aptmirror/apt/debian stretch main/debian-installer main contrib non-f
 deb http://aptmirror/apt/debian stretch-updates main/debian-installer main contrib non-free
 deb http://aptmirror/apt/debian stretch-backports main/debian-installer main contrib non-free
 deb http://aptmirror/apt/debian-security stretch/updates main contrib non-free
-deb http://aptmirror/apt/debian-media stretch main non-free
+deb [trusted=yes] http://aptmirror/apt/debian-media stretch main non-free
 
-deb http://aptmirror/apt/docker/linux/debian stretch stable
+deb [trusted=yes] http://aptmirror/apt/docker/linux/debian stretch stable
