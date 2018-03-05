@@ -27,6 +27,8 @@ sudo chown -R aptmirror:aptmirror /data
 
 sudo usermod -a -G aptmirror apt-mirror
 
+sudo usermod -a -G apt-mirror aptmirror 
+
 # We will create two main folders, one for debian based tool apt-mirror, and the other for yum
 
 mkdir /data/apt-mirror
