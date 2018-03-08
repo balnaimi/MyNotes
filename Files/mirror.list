@@ -62,7 +62,6 @@ deb-amd64 https://download.docker.com/linux/debian stretch stable
 
 #MongoDB Community
 deb-amd64 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.6 multiverse
-deb-amd64 http://repo.mongodb.org/apt/debian wheezy/mongodb-org/3.6 main
 
 clean http://us.archive.ubuntu.com/ubuntu 
 clean http://www.apache.org/dist/cassandra/debian 
