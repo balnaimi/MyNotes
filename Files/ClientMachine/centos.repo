@@ -33,3 +33,10 @@ name=Apache Cassandra
 baseurl=http://aptmirror/yum/www.apache.org/dist/cassandra/redhat/311x/
 gpgcheck=0
 repo_gpgcheck=0
+
+[mongodb]
+name=MongoDB Repository
+baseurl=https://aptmirror/yum/repo.mongodb.org/yum/redhat/7/mongodb-org/3.6/x86_64/
+gpgcheck=0
+enabled=1
+#gpgkey=https://www.mongodb.org/static/pgp/server-3.6.asc
