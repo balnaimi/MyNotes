@@ -1,0 +1,75 @@
+############# config ##################
+#
+set base_path    /data/apt-mirror
+#
+# set mirror_path  $base_path/mirror
+# set skel_path    $base_path/skel
+# set var_path     $base_path/var
+# set cleanscript $var_path/clean.sh
+# set defaultarch  <running host architecture>
+# set postmirror_script $var_path/postmirror.sh
+# set run_postmirror 0
+set nthreads     20
+set _tilde 0
+#
+############# end config ##############
+
+#64-bit
+
+deb-amd64 http://us.archive.ubuntu.com/ubuntu xenial main restricted universe multiverse 
+deb-amd64 http://us.archive.ubuntu.com/ubuntu xenial-security main restricted universe multiverse 
+deb-amd64 http://us.archive.ubuntu.com/ubuntu xenial-updates main restricted universe multiverse 
+deb-amd64 http://us.archive.ubuntu.com/ubuntu xenial-backports main restricted universe multiverse
+
+#32-bit
+deb-i386 http://us.archive.ubuntu.com/ubuntu xenial main restricted universe multiverse 
+deb-i386 http://us.archive.ubuntu.com/ubuntu xenial-security main restricted universe multiverse 
+deb-i386 http://us.archive.ubuntu.com/ubuntu xenial-updates main restricted universe multiverse 
+deb-i386 http://us.archive.ubuntu.com/ubuntu xenial-backports main restricted universe multiverse 
+
+#Installers
+deb-amd64 http://us.archive.ubuntu.com/ubuntu xenial main/debian-installer main restricted/debian-installer universe/debian-installer multiverse/debian-installer
+deb-i386 http://us.archive.ubuntu.com/ubuntu xenial main/debian-installer main restricted/debian-installer universe/debian-installer multiverse/debian-installer 
+
+#Cassandra 3.11
+deb-amd64 http://www.apache.org/dist/cassandra/debian 311x main
+deb-i386 http://www.apache.org/dist/cassandra/debian 311x main 
+
+#Gitlab EE
+deb-amd64 https://packages.gitlab.com/gitlab/gitlab-ee/ubuntu/ xenial main
+deb-i386 https://packages.gitlab.com/gitlab/gitlab-ee/ubuntu/ xenial main 
+#deb-src https://packages.gitlab.com/gitlab/gitlab-ee/ubuntu/ xenial main 
+
+#Raspberry Pi Stretch
+deb-armhf http://mirrordirector.raspbian.org/raspbian/ stretch main contrib non-free rpi 
+
+#Debian
+deb-i386   http://ftp.us.debian.org/debian stretch main/debian-installer main contrib non-free
+deb-i386   http://ftp.us.debian.org/debian stretch-updates main/debian-installer main contrib non-free
+deb-i386   http://ftp.us.debian.org/debian stretch-backports main/debian-installer main contrib non-free
+deb-i386   http://security.debian.org/debian-security stretch/updates main contrib non-free
+deb-i386   http://www.deb-multimedia.org stretch main non-free
+
+deb-amd64  http://ftp.us.debian.org/debian stretch main/debian-installer main contrib non-free
+deb-amd64  http://ftp.us.debian.org/debian stretch-updates main/debian-installer main contrib non-free
+deb-amd64  http://ftp.us.debian.org/debian stretch-backports main/debian-installer main contrib non-free
+deb-amd64  http://security.debian.org/debian-security stretch/updates main contrib non-free
+deb-amd64  http://www.deb-multimedia.org stretch main non-free
+
+#Docker CE
+deb-amd64 https://download.docker.com/linux/ubuntu xenial stable
+deb-amd64 https://download.docker.com/linux/debian stretch stable
+
+#MongoDB Community
+deb-amd64 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.6 multiverse
+deb-amd64 http://repo.mongodb.org/apt/debian wheezy/mongodb-org/3.6 main
+
+clean http://us.archive.ubuntu.com/ubuntu 
+clean http://www.apache.org/dist/cassandra/debian 
+clean https://packages.gitlab.com/gitlab/gitlab-ee/ubuntu/ 
+clean http://mirrordirector.raspbian.org/raspbian/
+clean http://ftp.us.debian.org/debian
+clean http://security.debian.org/debian-security
+clean http://deb-multimedia.org/
+clean https://download.docker.com/linux/ubuntu
+clean https://download.docker.com/linux/debian
