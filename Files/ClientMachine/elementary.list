@@ -1,5 +1,6 @@
 deb [trusted=yes] http://aptmirror/apt/ppa.launchpad.net/elementary-os/stable/ubuntu xenial main 
 deb [trusted=yes] http://aptmirror/apt/ppa.launchpad.net/elementary-os/os-patches/ubuntu xenial main 
+deb [trusted=yes] http://aptmirror/apt/packages.elementary.io/appcenter xenial main 
 
 deb http://aptmirror/apt/us.archive.ubuntu.com/ubuntu xenial main restricted
 deb http://aptmirror/apt/us.archive.ubuntu.com/ubuntu xenial-updates main restricted
