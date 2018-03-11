@@ -73,6 +73,9 @@ deb-i386 http://ppa.launchpad.net/elementary-os/stable/ubuntu xenial main
 deb-amd64 http://ppa.launchpad.net/elementary-os/os-patches/ubuntu xenial main
 deb-i386 http://ppa.launchpad.net/elementary-os/os-patches/ubuntu xenial main
 
+# LAtest Java
+deb-amd64 http://ppa.launchpad.net/webupd8team/java/ubuntu xenial main
+deb-i386 http://ppa.launchpad.net/webupd8team/java/ubuntu xenial main
 
 clean http://us.archive.ubuntu.com/ubuntu 
 clean http://www.apache.org/dist/cassandra/debian 
@@ -86,3 +89,4 @@ clean https://download.docker.com/linux/debian
 clean http://ppa.launchpad.net/mc3man/xerus-media/ubuntu
 clean http://ppa.launchpad.net/elementary-os/stable/ubuntu
 clean http://ppa.launchpad.net/elementary-os/os-patches/ubuntu
+clean http://ppa.launchpad.net/webupd8team/java/ubuntu
