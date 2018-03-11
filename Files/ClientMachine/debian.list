@@ -2,6 +2,7 @@ deb http://aptmirror/apt/ftp.us.debian.org/debian stretch main/debian-installer 
 deb http://aptmirror/apt/ftp.us.debian.org/debian stretch-updates main/debian-installer main contrib non-free
 deb http://aptmirror/apt/ftp.us.debian.org/debian stretch-backports main/debian-installer main contrib non-free
 deb http://aptmirror/apt/security.debian.org/debian-security stretch/updates main contrib non-free
-deb [trusted=yes] http://aptmirror/apt/www.deb-multimedia.org stretch main non-free
 
+deb [trusted=yes] http://aptmirror/apt/www.deb-multimedia.org stretch main non-free
 deb [trusted=yes] http://aptmirror/apt/download.docker.com/linux/debian stretch stable
+deb [trusted=yes] http://aptmirror/apt/ppa.launchpad.net/webupd8team/java/ubuntu xenial main
