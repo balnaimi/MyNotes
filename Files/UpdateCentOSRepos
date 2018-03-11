@@ -2,7 +2,7 @@
 # Sync CentOS
 
 mkdir -p /data/yum-mirror/mirror.centos.org/centos/7/os/x86_64
-reposync -c /etc/yum/yum.conf -n -d --download-metadata --norepopath -r os --download_path=/data/yum-mirror/mirror.centos.org/centos/7/os/x86_64
+reposync -c /etc/yum/yum.conf -n -d --download-metadata --norepopath -r os -g comps.xml --download_path=/data/yum-mirror/mirror.centos.org/centos/7/os/x86_64
 
 mkdir -p /data/yum-mirror/mirror.centos.org/centos/7/updates/x86_64
 reposync -c /etc/yum/yum.conf -n -d --download-metadata --norepopath -r updates --download_path=/data/yum-mirror/mirror.centos.org/centos/7/updates/x86_64
@@ -15,7 +15,7 @@ reposync -c /etc/yum/yum.conf -n -d --download-metadata --norepopath -r centospl
 
 
 mkdir -p /data/yum-mirror/dl.fedoraproject.org/pub/epel/7/x86_64
-reposync -c /etc/yum/yum.conf -n -d --download-metadata --norepopath -r epel --download_path=/data/yum-mirror/dl.fedoraproject.org/pub/epel/7/x86_64
+reposync -c /etc/yum/yum.conf -n -d --download-metadata --norepopath -r epel -g comps.xml --download_path=/data/yum-mirror/dl.fedoraproject.org/pub/epel/7/x86_64
 
 mkdir -p /data/yum-mirror/www.apache.org/dist/cassandra/redhat/311x/
 reposync -c /etc/yum/yum.conf -n -d --download-metadata --norepopath -r cassandra --download_path=/data/yum-mirror/www.apache.org/dist/cassandra/redhat/311x/
