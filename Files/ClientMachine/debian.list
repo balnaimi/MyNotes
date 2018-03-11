@@ -4,4 +4,4 @@ deb http://aptmirror/apt/ftp.us.debian.org/debian stretch-backports main/debian-
 deb http://aptmirror/apt/security.debian.org/debian-security stretch/updates main contrib non-free
 deb [trusted=yes] http://aptmirror/apt/www.deb-multimedia.org stretch main non-free
 
-deb [trusted=yes] http://aptmirror/apt/download.docker.com/docker/linux/debian stretch stable
+deb [trusted=yes] http://aptmirror/apt/download.docker.com/linux/debian stretch stable
