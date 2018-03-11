@@ -67,6 +67,11 @@ deb-amd64 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.6 multiverse
 deb-amd64 http://ppa.launchpad.net/mc3man/xerus-media/ubuntu xenial main
 deb-i386  http://ppa.launchpad.net/mc3man/xerus-media/ubuntu xenial main
 
+# elementary-os
+deb-amd64 http://ppa.launchpad.net/elementary-os/stable/ubuntu xenial main
+deb-i386 http://ppa.launchpad.net/elementary-os/stable/ubuntu xenial main
+
+
 clean http://us.archive.ubuntu.com/ubuntu 
 clean http://www.apache.org/dist/cassandra/debian 
 clean https://packages.gitlab.com/gitlab/gitlab-ee/ubuntu/ 
@@ -77,3 +82,4 @@ clean http://deb-multimedia.org/
 clean https://download.docker.com/linux/ubuntu
 clean https://download.docker.com/linux/debian
 clean http://ppa.launchpad.net/mc3man/xerus-media/ubuntu
+clean http://ppa.launchpad.net/elementary-os/stable/ubuntu
