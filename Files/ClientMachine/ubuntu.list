@@ -14,3 +14,4 @@ deb [trusted=yes] http://aptmirror/apt/packages.gitlab.com/gitlab/gitlab-ee/ubun
 deb [trusted=yes] http://aptmirror/apt/www.apache.org/dist/cassandra/debian 311x main
 deb [trusted=yes] http://aptmirror/apt/download.docker.com/linux/ubuntu xenial stable
 deb [trusted=yes] http://aptmirror/apt/repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.6 multiverse
+deb [trusted=yes] http://aptmirror/apt/ppa.launchpad.net/mc3man/xerus-media/ubuntu xenial main
