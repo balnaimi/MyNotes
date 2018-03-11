@@ -63,6 +63,10 @@ deb-amd64 https://download.docker.com/linux/debian stretch stable
 #MongoDB Community
 deb-amd64 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.6 multiverse
 
+# ppa:mc3man/xerus-media
+deb-amd64 http://ppa.launchpad.net/mc3man/xerus-media/ubuntu xenial main
+deb-i386  http://ppa.launchpad.net/mc3man/xerus-media/ubuntu xenial main
+
 clean http://us.archive.ubuntu.com/ubuntu 
 clean http://www.apache.org/dist/cassandra/debian 
 clean https://packages.gitlab.com/gitlab/gitlab-ee/ubuntu/ 
@@ -72,3 +76,4 @@ clean http://security.debian.org/debian-security
 clean http://deb-multimedia.org/
 clean https://download.docker.com/linux/ubuntu
 clean https://download.docker.com/linux/debian
+clean http://ppa.launchpad.net/mc3man/xerus-media/ubuntu
