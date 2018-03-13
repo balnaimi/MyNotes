@@ -43,6 +43,6 @@ enabled=1
 
 [datastax]
 name = DataStax Repository
-baseurl = http://aptmirror/yum/rpm.datastax.com/enterprise/x86_64/
+baseurl = http://aptmirror/yum/rpm.datastax.com/enterprise/
 enabled = 1
 gpgcheck = 0
