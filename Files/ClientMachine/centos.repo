@@ -40,3 +40,9 @@ baseurl=http://aptmirror/yum/repo.mongodb.org/yum/redhat/7/mongodb-org/3.6/x86_6
 gpgcheck=0
 enabled=1
 #gpgkey=https://www.mongodb.org/static/pgp/server-3.6.asc
+
+[datastax]
+name = DataStax Repository
+baseurl = http://aptmirror/yum/rpm.datastax.com/enterprise
+enabled = 1
+gpgcheck = 0
