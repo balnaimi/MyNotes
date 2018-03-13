@@ -101,4 +101,4 @@ clean http://ppa.launchpad.net/elementary-os/os-patches/ubuntu
 clean http://packages.elementary.io/appcenter
 #clean http://ppa.launchpad.net/webupd8team/java/ubuntu
 clean https://download.virtualbox.org/virtualbox/debian
-clean https://khalefa@addrek.com:Km_123456@debian.datastax.com/enterprise
+clean https://khalefa%40addrek.com:Km_123456@debian.datastax.com/enterprise
