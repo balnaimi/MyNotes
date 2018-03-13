@@ -20,3 +20,4 @@ deb [trusted=yes] http://aptmirror/apt/repo.mongodb.org/apt/ubuntu xenial/mongod
 deb [trusted=yes] http://aptmirror/apt/ppa.launchpad.net/mc3man/xerus-media/ubuntu xenial main
 #deb [trusted=yes] http://aptmirror/apt/ppa.launchpad.net/webupd8team/java/ubuntu xenial main
 deb [trusted=yes arch=amd64] http://aptmirror/apt/download.virtualbox.org/virtualbox/debian xenial contrib
+deb [trusted=yes arch=amd64] http://aptmirror/apt/debian.datastax.com/enterprise stable main
