@@ -47,3 +47,10 @@ baseurl=https://repo.mongodb.org/yum/redhat/7/mongodb-org/3.6/x86_64/
 gpgcheck=0
 enabled=1
 #gpgkey=https://www.mongodb.org/static/pgp/server-3.6.asc
+
+[datastax]
+name = DataStax Repository
+baseurl = https://khalefa%40addrek.com:Km_123456@rpm.datastax.com/enterprise
+enabled = 1
+gpgcheck = 0
+
