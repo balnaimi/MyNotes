@@ -16,4 +16,4 @@ deb [trusted=yes] http://aptmirror/apt/download.docker.com/linux/ubuntu xenial s
 deb [trusted=yes] http://aptmirror/apt/repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.6 multiverse
 deb [trusted=yes] http://aptmirror/apt/ppa.launchpad.net/mc3man/xerus-media/ubuntu xenial main
 deb [trusted=yes] http://aptmirror/apt/ppa.launchpad.net/webupd8team/java/ubuntu xenial main
-deb [trusted=yes] http://aptmirror/apt/download.virtualbox.org/virtualbox/debian xenial contrib
+deb [trusted=yes arch=amd64] http://aptmirror/apt/download.virtualbox.org/virtualbox/debian xenial contrib
