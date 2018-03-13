@@ -5,6 +5,6 @@ deb http://aptmirror/apt/security.debian.org/debian-security stretch/updates mai
 
 deb [trusted=yes] http://aptmirror/apt/www.deb-multimedia.org stretch main non-free
 deb [trusted=yes] http://aptmirror/apt/download.docker.com/linux/debian stretch stable
-deb [trusted=yes] http://aptmirror/apt/ppa.launchpad.net/webupd8team/java/ubuntu xenial main
+#deb [trusted=yes] http://aptmirror/apt/ppa.launchpad.net/webupd8team/java/ubuntu xenial main
 deb [trusted=yes arch=amd64] http://aptmirror/apt/download.virtualbox.org/virtualbox/debian stretch contrib
 deb [trusted=yes arch=amd64] http://aptmirror/apt/debian.datastax.com/enterprise stable main
