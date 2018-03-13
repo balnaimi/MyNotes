@@ -23,6 +23,9 @@ reposync -c /etc/yum/yum.conf -n -d --download-metadata --norepopath -r cassandr
 mkdir -p /data/yum-mirror/repo.mongodb.org/yum/redhat/7/mongodb-org/3.6/x86_64/
 reposync -c /etc/yum/yum.conf -n -d --download-metadata --norepopath -r mongodb --download_path=/data/yum-mirror/repo.mongodb.org/yum/redhat/7/mongodb-org/3.6/x86_64/
 
+mkdir -p /data/yum-mirror/rpm.datastax.com/enterprise
+reposync -c /etc/yum/yum.conf -n -d --download-metadata --norepopath -r datastax --download_path=/data/yum-mirror/rpm.datastax.com/enterprise
+
 # Build CentOS repo metadata
 createrepo --update --workers=4 /data/yum-mirror/mirror.centos.org/centos/7/os/x86_64 -g comps.xml
 createrepo --update --workers=4 /data/yum-mirror/mirror.centos.org/centos/7/updates/x86_64
@@ -31,3 +34,4 @@ createrepo --update --workers=4 /data/yum-mirror/mirror.centos.org/centos/7/cent
 createrepo --update --workers=4 /data/yum-mirror/dl.fedoraproject.org/pub/epel/7/x86_64 -g comps.xml
 createrepo --update --workers=4 /data/yum-mirror/www.apache.org/dist/cassandra/redhat/311x/
 createrepo --update --workers=4 /data/yum-mirror/repo.mongodb.org/yum/redhat/7/mongodb-org/3.6/x86_64/
+createrepo --update --workers=4 /data/yum-mirror/rpm.datastax.com/enterprise
