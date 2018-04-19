@@ -1,0 +1,21 @@
+
+deb http://aptmirror/apt/us.archive.ubuntu.com/ubuntu bionic main restricted
+deb http://aptmirror/apt/us.archive.ubuntu.com/ubuntu bionic-updates main restricted
+deb http://aptmirror/apt/us.archive.ubuntu.com/ubuntu bionic universe
+deb http://aptmirror/apt/us.archive.ubuntu.com/ubuntu bionic-updates universe
+deb http://aptmirror/apt/us.archive.ubuntu.com/ubuntu bionic multiverse
+deb http://aptmirror/apt/us.archive.ubuntu.com/ubuntu bionic-updates multiverse
+deb http://aptmirror/apt/us.archive.ubuntu.com/ubuntu bionic-backports main restricted universe multiverse
+deb http://aptmirror/apt/us.archive.ubuntu.com/ubuntu bionic-security main restricted
+deb http://aptmirror/apt/us.archive.ubuntu.com/ubuntu bionic-security universe
+deb http://aptmirror/apt/us.archive.ubuntu.com/ubuntu bionic-security multiverse
+
+#deb [trusted=yes] http://aptmirror/apt/packages.gitlab.com/gitlab/gitlab-ee/ubuntu bionic main
+deb [trusted=yes] http://aptmirror/apt/www.apache.org/dist/cassandra/debian 311x main
+#deb [trusted=yes arch=amd64] http://aptmirror/apt/download.docker.com/linux/ubuntu bionic stable
+#deb [trusted=yes] http://aptmirror/apt/repo.mongodb.org/apt/ubuntu bionic/mongodb-org/3.6 multiverse
+#deb [trusted=yes] http://aptmirror/apt/ppa.launchpad.net/mc3man/xerus-media/ubuntu bionic main
+#deb [trusted=yes] http://aptmirror/apt/ppa.launchpad.net/webupd8team/java/ubuntu bionic main
+#deb [trusted=yes arch=amd64] http://aptmirror/apt/download.virtualbox.org/virtualbox/debian bionic contrib
+#deb [trusted=yes arch=amd64] http://aptmirror/apt/debian.datastax.com/enterprise stable main
+deb [trusted=yes arch=amd64] http://aptmirror/apt/packages.microsoft.com/repos/vscode stable main
