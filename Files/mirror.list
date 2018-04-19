@@ -86,6 +86,9 @@ deb-amd64 https://download.virtualbox.org/virtualbox/debian stretch contrib
 #Datastax
 deb-amd64 https://khalefa%40addrek.com:Km_123456@debian.datastax.com/enterprise stable main
 
+#Visual Studio Code
+deb-amd64 http://packages.microsoft.com/repos/vscode stable main
+
 clean http://us.archive.ubuntu.com/ubuntu 
 clean http://www.apache.org/dist/cassandra/debian 
 clean https://packages.gitlab.com/gitlab/gitlab-ee/ubuntu/ 
@@ -102,3 +105,4 @@ clean http://packages.elementary.io/appcenter
 #clean http://ppa.launchpad.net/webupd8team/java/ubuntu
 clean https://download.virtualbox.org/virtualbox/debian
 clean https://khalefa%40addrek.com:Km_123456@debian.datastax.com/enterprise
+clean http://packages.microsoft.com/repos/vscode
