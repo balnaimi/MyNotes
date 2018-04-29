@@ -10,7 +10,7 @@ parser.add_argument("username",help="SSH Username")
 parser.add_argument("hostname",help="SSH Server or IP address")
 parser.add_argument("--port",help="SSH Port, Default 22")
 parser.add_argument("--output",help="Output File Name,Default: ArpOutput.csv")
-parser.add_argument("--password",help="SSH Password, NOT RECOMMENDED TO USE!") # I don't recommend that you keep supply this, it will be save in terminal history, 
+parser.add_argument("--password",help="SSH Password, NOT RECOMMENDED TO USE!") # I don't recommend that you supply this, it will be save in terminal history, 
 args=None
 if len(sys.argv) < 2: # show help right away if no arguments passed
     parser.print_help()
