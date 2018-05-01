@@ -21,13 +21,11 @@ sudo mkdir /data
 
 # Change owner to local user
 
-sudo chown -R aptmirror:aptmirror /data
+sudo chown -R apt-mirror:apt-mirror /data
 
 # add apt-mirror use to same group as local user aptmirror, maybe you will need to relogin to make it take effect, I dont know
 
-sudo usermod -a -G aptmirror apt-mirror
-
-sudo usermod -a -G apt-mirror aptmirror 
+sudo usermod -a -G apt-mirror $USER 
 
 # We will create two main folders, one for debian based tool apt-mirror, and the other for yum
 
